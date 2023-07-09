@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <a href="/">
+                    Casa
+                </a>
+            </li>
+            <li>
+                <a href="/upload">
+                    Subir
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <div>
+            <div>
+                <h2>Subir un nuevo elemento</h2>
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                    <div>
+                        <label for=""></label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div>
+                        <label for="age"></label>
+                        <input type="number" name="age" id="age" required>
+                    </div>
+                    <div>
+                        <label for="favoriteFood"></label>
+                        <input type="text" name="favoriteFood" id="favoriteFood" required>
+                    </div>
+                    <div>
+                        <label for="funFact"></label>
+                        <input type="text" name="funFact" id="funFact">
+                    </div>
+                    <button type="submit"> Enviar </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
